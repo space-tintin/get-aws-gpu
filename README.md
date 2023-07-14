@@ -1,4 +1,4 @@
-## AWS EC2 Instance Launcher Script
+# AWS EC2 Instance Launcher Script
 This Python script provides a simple command-line interface to launch Amazon Web Services (AWS) EC2 instances. It can launch new EC2 instances or start existing ones.
 
 The script uses AWS's Boto3, the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3, Amazon EC2, and others.
