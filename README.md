@@ -3,12 +3,15 @@ This Python script provides a simple command-line interface to launch Amazon Web
 
 The script uses AWS's Boto3, the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3, Amazon EC2, and others.
 
+The main intent is to have a script to attempt to launch gpu instances over and over again when availability is low
+
 **Requirements**
 
-Python 3.6+
-AWS account with necessary permissions to launch/start EC2 instances
-Boto3 Python library
-Installation
+Python 3.6+  
+AWS account with necessary permissions to launch/start EC2 instances  
+Boto3 Python library  
+
+**Installation**   
 To install the necessary Python library, run:
 
 ```sh
