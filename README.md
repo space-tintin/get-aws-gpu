@@ -33,14 +33,15 @@ python ec2_manager.py start <region> --instance_id <instance_id>
 
 Replace `<region>`, `<ami_id>`, `<instance_type>`, `<subnet_id>`, `<security_group_id>`, and `<instance_id>` with your actual values.
 
-**Explanation of Command Line Arguments**
-`action`: The action to perform - either 'launch' to launch a new instance, or 'start' to start an existing instance
-`region`: The AWS region where the action will be performed
-`--ami`: The AMI ID (required for 'launch' action)
-`--instance_type`: The instance type (required for 'launch' action)
-`--subnet`: The subnet ID (required for 'launch' action)
-`--security_group`: The security group ID (required for 'launch' action)
-`--instance_id`: The ID of the instance to start (required for 'start' action)
+**Command Line Arguments**
+- `action`: The action to perform - either 'launch' to launch a new instance, or 'start' to start an existing instance  
+- `region`: The AWS region where the action will be performed  
+- `--ami`: The AMI ID (required for 'launch' action)  
+- `--instance_type`: The instance type (required for 'launch' action)  
+- `--subnet`: The subnet ID (required for 'launch' action)  
+- `--security_group`: The security group ID (required for 'launch' action)  
+- `--instance_id`: The ID of the instance to start (required for 'start' action)  
+  
 Note: Make sure to setup AWS Credentials before using the script. Refer to AWS Documentation for setting up the credentials.
 
 **License**
